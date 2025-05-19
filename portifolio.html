@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Data Analyst</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -1020,7 +1021,7 @@
                 <h1>JÚLIO <span class="accent">LAGE</span></h1>
                 <div class="dynamic-subtitle typing-effect" id="dynamicSubtitle">DATA ANALYST • PYTHON • ML</div>
                 <div class="enhanced-description">
-                    Especialista em transformar dados complexos em insights estratégicos através de análise estatística avançada, machine learning e visualização de dados interativa. Desenvolvimento de soluções escaláveis que impulsionam o crescimento empresarial.
+                    Especialista em transformar dados financeiros em insights estratégicos por meio de estatística avançada e visualizações interativas. Desenvolvimento de soluções escaláveis para otimizar decisões e impulsionar resultados.
                 </div>
                 <div class="cta-buttons">
                     <a href="#projects" class="cta-button primary">Ver Projetos</a>
@@ -1029,197 +1030,201 @@
             </div>
         </section>
 
-        <!-- Projects Section -->
-        <section class="section" id="projects">
-            <h2 class="section-title">PROJETOS EM DESTAQUE</h2>
-            <div class="projects-grid">
-                <div class="project-card fade-in">
-                    <div class="project-icon">
-                        <i class="fas fa-chart-line"></i>
-                    </div>
-                    <h3>Análise de Vendas E-commerce</h3>
-                    <p>Sistema completo de análise de vendas com dashboard em tempo real, previsão de demanda e segmentação de clientes using machine learning. Resultou em 35% de aumento na precisão das previsões e otimização de estoque.</p>
-                    <div class="tech-stack">
-                        <span class="tech-item">Python</span>
-                        <span class="tech-item">Pandas</span>
-                        <span class="tech-item">Plotly</span>
-                        <span class="tech-item">Streamlit</span>
-                        <span class="tech-item">SQL</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="#" class="project-link"><i class="fab fa-github"></i> Código</a>
-                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
-                    </div>
-                </div>
+       <!-- Projects Section -->
+<section class="section" id="projects">
+  <h2 class="section-title">PROJETOS EM DESTAQUE</h2>
+  <div class="projects-grid">
 
-                <div class="project-card fade-in">
-                    <div class="project-icon">
-                        <i class="fas fa-brain"></i>
-                    </div>
-                    <h3>Modelo de Previsão de Churn</h3>
-                    <p>Algoritmo de machine learning para predição de cancelamento de clientes com 94% de acurácia. Inclui análise de features, interpretabilidade do modelo usando SHAP e pipeline automatizado de retreinamento.</p>
-                    <div class="tech-stack">
-                        <span class="tech-item">Scikit-learn</span>
-                        <span class="tech-item">XGBoost</span>
-                        <span class="tech-item">SHAP</span>
-                        <span class="tech-item">MLflow</span>
-                        <span class="tech-item">Jupyter</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="#" class="project-link"><i class="fab fa-github"></i> Código</a>
-                        <a href="#" class="project-link"><i class="fas fa-chart-bar"></i> Notebook</a>
-                    </div>
-                </div>
+    <!-- 1. face_upload -->
+    <div class="project-card fade-in">
+      <div class="skill-icon">
+        <i class="fas fa-image"></i>
+      </div>
+      <h3>Face Upload</h3>
+      <p>Aplicação web em Flask para upload e processamento de imagens faciais.  
+      Implementa validação, redimensionamento e armazenamento seguro em AWS S3.</p>
+      <div class="tech-stack">
+        <span class="tech-item">Python</span>
+        <span class="tech-item">Flask</span>
+        <span class="tech-item">OpenCV</span>
+        <span class="tech-item">AWS S3</span>
+        <span class="tech-item">Docker</span>
+      </div>
+      <div class="project-links">
+        <a href="https://github.com/JulioLage-Alx/face_upload" class="project-link">
+          <i class="fab fa-github"></i> Código
+        </a>
+      </div>
+    </div>
 
-                <div class="project-card fade-in">
-                    <div class="project-icon">
-                        <i class="fas fa-database"></i>
-                    </div>
-                    <h3>Pipeline ETL Automatizado</h3>
-                    <p>Pipeline de dados robusto para extração, transformação e carregamento de múltiplas fontes. Processa 10GB+ diários com 99.9% de confiabilidade, incluindo monitoramento e alertas automáticos.</p>
-                    <div class="tech-stack">
-                        <span class="tech-item">Apache Airflow</span>
-                        <span class="tech-item">PostgreSQL</span>
-                        <span class="tech-item">Docker</span>
-                        <span class="tech-item">AWS</span>
-                        <span class="tech-item">Terraform</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="#" class="project-link"><i class="fab fa-github"></i> Código</a>
-                        <a href="#" class="project-link"><i class="fas fa-cog"></i> Arquitetura</a>
-                    </div>
-                </div>
+    <!-- 2. Model-predictive-severity-accident -->
+    <div class="project-card fade-in">
+      <div class="skill-icon">
+        <i class="fas fa-traffic-light"></i>
+      </div>
+      <h3>Previsão de Gravidade de Acidentes</h3>
+      <p>Notebook em Jupyter para análise preditiva de acidentes de trânsito, 
+      com pipeline de limpeza, feature engineering e avaliação de modelos.</p>
+      <div class="tech-stack">
+        <span class="tech-item">Python</span>
+        <span class="tech-item">Pandas</span>
+        <span class="tech-item">Scikit‑learn</span>
+        <span class="tech-item">XGBoost</span>
+        <span class="tech-item">Jupyter</span>
+      </div>
+      <div class="project-links">
+        <a href="https://github.com/JulioLage-Alx/Model-predictive-severity-accident" class="project-link">
+          <i class="fab fa-github"></i> Notebook
+        </a>
+      </div>
+    </div>
 
-                <div class="project-card fade-in">
-                    <div class="project-icon">
-                        <i class="fas fa-language"></i>
-                    </div>
-                    <h3>Análise de Sentimentos NLP</h3>
-                    <p>Sistema de processamento de linguagem natural para análise de sentimentos em reviews e feedbacks. Classificação multi-classe com API REST para uso em produção e interface web interativa.</p>
-                    <div class="tech-stack">
-                        <span class="tech-item">NLTK</span>
-                        <span class="tech-item">spaCy</span>
-                        <span class="tech-item">BERT</span>
-                        <span class="tech-item">FastAPI</span>
-                        <span class="tech-item">React</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="#" class="project-link"><i class="fab fa-github"></i> Código</a>
-                        <a href="#" class="project-link"><i class="fas fa-play"></i> Demo</a>
-                    </div>
-                </div>
+    <!-- 3. ICEI-PUC-Minas-PPL-CD -->
+    <div class="project-card fade-in">
+      <div class="skill-icon">
+        <i class="fas fa-university"></i>
+      </div>
+      <h3>Processamento de Sinais EEG</h3>
+      <p>Pesquisa acadêmica sobre aquisição e filtragem de sinais eletroencefalográficos, 
+      aplicando filtros de frequência e extração de características.</p>
+      <div class="tech-stack">
+        <span class="tech-item">Python</span>
+        <span class="tech-item">MNE</span>
+        <span class="tech-item">NumPy</span>
+        <span class="tech-item">SciPy</span>
+        <span class="tech-item">Machine Learning</span>
+      </div>
+      <div class="project-links">
+        <a href="https://github.com/JulioLage-Alx/ICEI-PUC-Minas-PPL-CD" class="project-link">
+          <i class="fab fa-github"></i> Código
+        </a>
+      </div>
+    </div>
 
-                <div class="project-card fade-in">
-                    <div class="project-icon">
-                        <i class="fas fa-chart-pie"></i>
-                    </div>
-                    <h3>Dashboard Executivo BI</h3>
-                    <p>Dashboard interativo para monitoramento de KPIs em tempo real. Interface responsiva com filtros dinâmicos, alertas automáticos e relatórios personalizáveis para diferentes stakeholders.</p>
-                    <div class="tech-stack">
-                        <span class="tech-item">Power BI</span>
-                        <span class="tech-item">DAX</span>
-                        <span class="tech-item">SQL</span>
-                        <span class="tech-item">Python</span>
-                        <span class="tech-item">Azure</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="#" class="project-link"><i class="fab fa-github"></i> Código</a>
-                        <a href="#" class="project-link"><i class="fas fa-chart-line"></i> Dashboard</a>
-                    </div>
-                </div>
+    <!-- 4. Análise de Carteira de Investimentos -->
+    <div class="project-card fade-in">
+      <div class="skill-icon">
+        <i class="fas fa-chart-pie"></i>
+      </div>
+      <h3>Análise de Carteira de Investimentos</h3>
+      <p>Estudo de alocação de ativos usando dados históricos de ações. 
+      Dashboard interativo em Streamlit com métricas de retorno e risco.</p>
+      <div class="tech-stack">
+        <span class="tech-item">Python</span>
+        <span class="tech-item">Pandas</span>
+        <span class="tech-item">Plotly</span>
+        <span class="tech-item">Streamlit</span>
+        <span class="tech-item">yfinance</span>
+      </div>
+      <div class="project-links">
+        <a href="#" class="project-link">
+          <i class="fab fa-github"></i> Código
+        </a>
+        <a href="#" class="project-link">
+          <i class="fas fa-external-link-alt"></i> Demo
+        </a>
+      </div>
+    </div>
 
-                <div class="project-card fade-in">
-                    <div class="project-icon">
-                        <i class="fas fa-robot"></i>
-                    </div>
-                    <h3>Sistema de Recomendação</h3>
-                    <p>Engine de recomendação híbrida combinando collaborative e content-based filtering. Deployed em produção com A/B testing integrado e sistema de feedback em tempo real.</p>
-                    <div class="tech-stack">
-                        <span class="tech-item">TensorFlow</span>
-                        <span class="tech-item">Surprise</span>
-                        <span class="tech-item">Redis</span>
-                        <span class="tech-item">Kubernetes</span>
-                        <span class="tech-item">AWS</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="#" class="project-link"><i class="fab fa-github"></i> Código</a>
-                        <a href="#" class="project-link"><i class="fas fa-cloud"></i> API</a>
-                    </div>
+    <!-- 5. Sistema de Presença Liga Financeira -->
+    <div class="project-card fade-in">
+      <div class="skill-icon">
+        <i class="fas fa-users"></i>
+      </div>
+      <h3>Sistema de Presença</h3>
+      <p>Aplicação em Flask + MySQL para registro de presenças e gestão de membros, 
+      com autenticação e relatórios automatizados.</p>
+      <div class="tech-stack">
+        <span class="tech-item">Flask</span>
+        <span class="tech-item">MySQL</span>
+        <span class="tech-item">HTML/CSS</span>
+        <span class="tech-item">Python</span>
+        <span class="tech-item">Docker</span>
+      </div>
+      <div class="project-links">
+        <a href="https://github.com/JulioLage-Alx/Sistema-de-Presenca" class="project-link">
+          <i class="fab fa-github"></i> Código
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Skills Section -->
+<section class="skills" id="skills">
+    <div class="section">
+        <h2 class="section-title">EXPERTISES TÉCNICAS</h2>
+        <div class="skills-grid">
+
+            <div class="skill-item fade-in">
+                <div class="skill-icon">
+                    <i class="fab fa-python"></i>
                 </div>
+                <h3>Python & Automação</h3>
+                <p>Pandas • NumPy • OpenPyXL<br>Automação de relatórios • Scripts de ETL</p>
             </div>
-        </section>
 
-        <!-- Skills Section -->
-        <section class="skills" id="skills">
-            <div class="section">
-                <h2 class="section-title">EXPERTISES TÉCNICAS</h2>
-                <div class="skills-grid">
-                    <div class="skill-item fade-in">
-                        <div class="skill-icon">
-                            <i class="fab fa-python"></i>
-                        </div>
-                        <h3>Python</h3>
-                        <p>Pandas • NumPy • SciPy<br>FastAPI • Flask • Django</p>
-                    </div>
-
-                    <div class="skill-item fade-in">
-                        <div class="skill-icon">
-                            <i class="fas fa-chart-bar"></i>
-                        </div>
-                        <h3>Visualização</h3>
-                        <p>Matplotlib • Plotly • Seaborn<br>D3.js • Altair • Bokeh</p>
-                    </div>
-
-                    <div class="skill-item fade-in">
-                        <div class="skill-icon">
-                            <i class="fas fa-brain"></i>
-                        </div>
-                        <h3>Machine Learning</h3>
-                        <p>Scikit-learn • XGBoost • LightGBM<br>TensorFlow • PyTorch • Keras</p>
-                    </div>
-
-                    <div class="skill-item fade-in">
-                        <div class="skill-icon">
-                            <i class="fas fa-database"></i>
-                        </div>
-                        <h3>Databases</h3>
-                        <p>PostgreSQL • MySQL • MongoDB<br>Redis • Elasticsearch • BigQuery</p>
-                    </div>
-
-                    <div class="skill-item fade-in">
-                        <div class="skill-icon">
-                            <i class="fas fa-cloud"></i>
-                        </div>
-                        <h3>Cloud & DevOps</h3>
-                        <p>AWS • Azure • GCP<br>Docker • Kubernetes • Terraform</p>
-                    </div>
-
-                    <div class="skill-item fade-in">
-                        <div class="skill-icon">
-                            <i class="fas fa-chart-line"></i>
-                        </div>
-                        <h3>Business Intelligence</h3>
-                        <p>Power BI • Tableau • Looker<br>Metabase • Apache Superset</p>
-                    </div>
-
-                    <div class="skill-item fade-in">
-                        <div class="skill-icon">
-                            <i class="fas fa-cogs"></i>
-                        </div>
-                        <h3>MLOps</h3>
-                        <p>MLflow • Kubeflow • DVC<br>Airflow • Jenkins • Git</p>
-                    </div>
-
-                    <div class="skill-item fade-in">
-                        <div class="skill-icon">
-                            <i class="fas fa-chart-pie"></i>
-                        </div>
-                        <h3>Estatística</h3>
-                        <p>A/B Testing • Bayesian Analysis<br>Time Series • R • SPSS</p>
-                    </div>
+            <div class="skill-item fade-in">
+                <div class="skill-icon">
+                    <i class="fas fa-file-excel"></i>
                 </div>
+                <h3>Excel Avançado</h3>
+                <p>Tabelas dinâmicas • Power Query<br>Macros (VBA) • Dashboards financeiros</p>
             </div>
-        </section>
+
+            <div class="skill-item fade-in">
+                <div class="skill-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h3>Business Intelligence</h3>
+                <p>Power BI • Metabase • Google Sheets<br>Visualização de indicadores financeiros</p>
+            </div>
+
+            <div class="skill-item fade-in">
+                <div class="skill-icon">
+                    <i class="fas fa-database"></i>
+                </div>
+                <h3>Banco de Dados</h3>
+                <p>SQL • PostgreSQL • MySQL<br>Consultas para relatórios gerenciais</p>
+            </div>
+
+            <div class="skill-item fade-in">
+                <div class="skill-icon">
+                    <i class="fas fa-chart-pie"></i>
+                </div>
+                <h3>Análise Estatística</h3>
+                <p>Séries temporais • A/B Testing<br>R • SPSS • Análise bayesiana</p>
+            </div>
+
+            <div class="skill-item fade-in">
+                <div class="skill-icon">
+                    <i class="fas fa-university"></i>
+                </div>
+                <h3>Mercado Financeiro</h3>
+                <p>Controle patrimonial • Acompanhamento de ativos<br>Estudos de viabilidade e retorno</p>
+            </div>
+
+            <div class="skill-item fade-in">
+                <div class="skill-icon">
+                    <i class="fas fa-globe"></i>
+                </div>
+                <h3>Web & Relatórios</h3>
+                <p>Flask • HTML • CSS<br>Geração de dashboards automatizados</p>
+            </div>
+
+            <div class="skill-item fade-in">
+                <div class="skill-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <h3>Organização & Soft Skills</h3>
+                <p>Comunicação • Proatividade • Trabalho em equipe<br>Organização de tarefas e relatórios</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
 
         <!-- Contact Section -->
         <section class="contact" id="contact">
